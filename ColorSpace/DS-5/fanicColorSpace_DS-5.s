@@ -319,7 +319,7 @@ bgrcoeff
         DCD      0x245ABC6A
         DCD      0x94FD4BC6
 
-fanicBGR565	FUNCTION
+fanicBGRAtoBGR565	FUNCTION
         PLD      [r1,#0]
         VMOV.I8  d1,#0x1f
         PLD      [r1,#0x40]
